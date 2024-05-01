@@ -27,3 +27,11 @@
 1. ```dotnet ef migrations add init```
 
 2. ```dotnet ef database update```
+
+### Connection Azure-SQL-Edge
+
+```bash
+"ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;User Id=sa;Password=root@123;Initial Catalog=test;TrustServerCertificate=True"
+  }
+```
