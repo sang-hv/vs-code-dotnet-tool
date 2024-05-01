@@ -1,6 +1,10 @@
 # vs-code-dotnet-tool
 
-### Tool list
+### Install tool donet
+
+1. ```dotnet tool install --global dotnet-ef```
+
+### Plugin VS list
 
 1. C# Dev kit
 
@@ -17,3 +21,9 @@
 1. SQL Server
 
 2. Design
+
+### Add migration
+
+1. ```dotnet ef migrations add init```
+
+2. ```dotnet ef database update```
